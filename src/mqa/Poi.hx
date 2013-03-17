@@ -40,4 +40,8 @@ extern class Poi extends BasePoi
      * Set an icon by the state of the POI. If state is null, then the default state is assumed ('def')
      **/
     public function setIcon(?data: Icon):Void;
+
+    public function setIconOffset(point: Point):Void;
+
+    public function setShadowOffset(point: Point):Void;
 }
